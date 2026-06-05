@@ -3,7 +3,7 @@ import { Skill, StatCard, TimelineEvent, Project, Certification, Testimonial } f
 export const PERSONAL_INFO = {
   name: 'Sumiya Maya',
   title: 'Full-Stack Software Engineer',
-  bio: 'A passionate full-stack software engineer with 4+ years of professional experience. Specializing in crafting highly responsive web interfaces, robust backend APIs, and integrating intelligent AI endpoints. Dedicated to building clean, maintainable, and type-safe codebase architectures.',
+  bio: 'A passionate full-stack software engineer with 2+ years of professional experience. Specializing in building responsive web interfaces, reliable backend APIs, and integrating AI-powered features. Focused on writing clean, maintainable, and type-safe code.',
   mission: 'My mission is to build clean, intuitive, and high-performance digital products that solve actual everyday needs, maintaining high frontend standards and robust backend communication.',
   avatar: 'https://images.pexels.com/photos/37974527/pexels-photo-37974527.png',
   location: 'San Francisco, CA',
@@ -17,9 +17,9 @@ export const PERSONAL_INFO = {
 
 export const STATISTICS: StatCard[] = [
   {
-    label: 'Years of Experience',
-    value: '4+',
-    description: 'Years crafted building robust web applications.',
+  label: 'Years of Experience',
+  value: '2+',
+  description: 'Years crafted building robust web applications.',
     icon: 'Briefcase'
   },
   {

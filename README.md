@@ -6,7 +6,7 @@
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4.0-38bdf8.svg)](https://tailwindcss.com/)
 [![Vite](https://img.shields.io/badge/Vite-6.x-646cff.svg)](https://vite.dev/)
 
-A premium, interactive, and beautifully polished single-page personal portfolio designed for **Sumiya Maya**, a Full-Stack Software Engineer with 4+ years of professional experience. Fully optimized for production build pipelines, modern UI/UX principles, and instant deployment to GitHub Pages.
+A premium, interactive, and beautifully polished single-page personal portfolio designed for **Sumiya Maya**, a Full-Stack Software Engineer with 2+ years of professional experience. Fully optimized for production build pipelines, modern UI/UX principles, and instant deployment to GitHub Pages.
 
 ---
 
