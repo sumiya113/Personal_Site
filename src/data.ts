@@ -2,10 +2,10 @@ import { Skill, StatCard, TimelineEvent, Project, Certification, Testimonial } f
 
 export const PERSONAL_INFO = {
   name: 'Sumiya Maya',
-  title: 'Senior Full-Stack & AI Systems Architect',
-  bio: 'A passionate system designer and full-stack software engineer with 8+ years of experience. Specializing in high-performance cloud architectures, reactive responsive user interfaces, and custom AI/ML model integrations. Driving engineering standard excellence with modern, type-safe clean code principles.',
-  mission: 'My mission is to craft exceptionally elegant digital interfaces, resilient backend architectures, and intelligent cognitive interfaces that empower organizations and elevate the user-facing standards of the modern web.',
-  avatar: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?fit=facearea&facepad=2&w=400&h=400&q=80',
+  title: 'Full-Stack Software Engineer',
+  bio: 'A passionate full-stack software engineer with 4+ years of professional experience. Specializing in crafting highly responsive web interfaces, robust backend APIs, and integrating intelligent AI endpoints. Dedicated to building clean, maintainable, and type-safe codebase architectures.',
+  mission: 'My mission is to build clean, intuitive, and high-performance digital products that solve actual everyday needs, maintaining high frontend standards and robust backend communication.',
+  avatar: 'https://images.pexels.com/photos/37974527/pexels-photo-37974527.png',
   location: 'San Francisco, CA',
   email: 'sumiya.maya@dev.io',
   phone: '+1 (555) 345-6789',
@@ -18,118 +18,113 @@ export const PERSONAL_INFO = {
 export const STATISTICS: StatCard[] = [
   {
     label: 'Years of Experience',
-    value: '8+',
-    description: 'Years building web applications globally.',
+    value: '4+',
+    description: 'Years crafted building robust web applications.',
     icon: 'Briefcase'
   },
   {
     label: 'Projects Completed',
-    value: '42',
-    description: 'Delivered in high-performance SaaS and enterprise markets.',
+    value: '18+',
+    description: 'Delivered across modern SaaS and consumer applications.',
     icon: 'FolderGit2'
   },
   {
-    label: 'Technologies Mastering',
-    value: '25+',
-    description: 'Expertise across full-stack & cloud platforms.',
+    label: 'Technologies Familiar',
+    value: '15+',
+    description: 'Proficiency across full-stack web environments.',
     icon: 'Cpu'
   },
   {
     label: 'Certifications Active',
-    value: '6',
-    description: 'Acknowledged by AWS, Google, and Harvard.',
+    value: '3',
+    description: 'Recognized by AWS, Google, and DeepLearning.AI.',
     icon: 'Award'
   }
 ];
 
 export const SKILLS: Skill[] = [
   // Frontend
-  { name: 'TypeScript', level: 95, category: 'Frontend', icon: 'Code' },
-  { name: 'React (v19/18)', level: 98, category: 'Frontend', icon: 'Atom' },
-  { name: 'Next.js 15', level: 94, category: 'Frontend', icon: 'Globe' },
-  { name: 'Tailwind CSS', level: 96, category: 'Frontend', icon: 'Palette' },
-  { name: 'Framer Motion', level: 90, category: 'Frontend', icon: 'Sparkles' },
+  { name: 'TypeScript', level: 82, category: 'Frontend', icon: 'Code' },
+  { name: 'React (v19/18)', level: 85, category: 'Frontend', icon: 'Atom' },
+  { name: 'Next.js 15', level: 78, category: 'Frontend', icon: 'Globe' },
+  { name: 'Tailwind CSS', level: 88, category: 'Frontend', icon: 'Palette' },
+  { name: 'Framer Motion', level: 72, category: 'Frontend', icon: 'Sparkles' },
 
   // Backend
-  { name: 'Node.js / Express', level: 92, category: 'Backend', icon: 'Server' },
-  { name: 'GraphQL / Apollo', level: 88, category: 'Backend', icon: 'Network' },
-  { name: 'FastAPI (Python)', level: 85, category: 'Backend', icon: 'Cpu' },
-  { name: 'gRPC APIs', level: 80, category: 'Backend', icon: 'Zap' },
+  { name: 'Node.js / Express', level: 80, category: 'Backend', icon: 'Server' },
+  { name: 'GraphQL / Apollo', level: 70, category: 'Backend', icon: 'Network' },
+  { name: 'FastAPI (Python)', level: 68, category: 'Backend', icon: 'Cpu' },
+  { name: 'RESTful APIs', level: 84, category: 'Backend', icon: 'Zap' },
 
   // Database
-  { name: 'PostgreSQL', level: 90, category: 'Database', icon: 'Database' },
-  { name: 'MongoDB', level: 85, category: 'Database', icon: 'Boxes' },
-  { name: 'Redis (Caching)', level: 88, category: 'Database', icon: 'Zap' },
-  { name: 'Prisma / Drizzle', level: 92, category: 'Database', icon: 'Layers' },
+  { name: 'PostgreSQL', level: 76, category: 'Database', icon: 'Database' },
+  { name: 'MongoDB', level: 80, category: 'Database', icon: 'Boxes' },
+  { name: 'Redis (Caching)', level: 65, category: 'Database', icon: 'Zap' },
+  { name: 'Prisma / Drizzle', level: 78, category: 'Database', icon: 'Layers' },
 
-  // DevOps
-  { name: 'Docker Containers', level: 88, category: 'DevOps', icon: 'Folder' },
-  { name: 'CI/CD Pipelines (GitHub)', level: 90, category: 'DevOps', icon: 'GitMerge' },
-  { name: 'Kubernetes', level: 75, category: 'DevOps', icon: 'Scale' },
-  { name: 'Terraform (IaC)', level: 80, category: 'DevOps', icon: 'Hammer' },
-
-  // Cloud
-  { name: 'AWS (S3, EC2, Lambda)', level: 90, category: 'Cloud', icon: 'Cloud' },
-  { name: 'Google Cloud (GCP)', level: 85, category: 'Cloud', icon: 'CloudSnow' },
-  { name: 'Vercel / Netlify', level: 95, category: 'Cloud', icon: 'UploadCloud' },
+  // DevOps & Cloud
+  { name: 'Docker Containers', level: 72, category: 'DevOps', icon: 'Folder' },
+  { name: 'CI/CD (GitHub Actions)', level: 75, category: 'DevOps', icon: 'GitMerge' },
+  { name: 'AWS (S3, EC2, Lambda)', level: 70, category: 'Cloud', icon: 'Cloud' },
+  { name: 'Vercel / Netlify', level: 88, category: 'Cloud', icon: 'UploadCloud' },
 
   // AI & ML
-  { name: 'Gemini Technical SDK', level: 92, category: 'AI/ML', icon: 'Bot' },
-  { name: 'LangChain Orchestration', level: 85, category: 'AI/ML', icon: 'Workflow' },
-  { name: 'Vector Databases (Pinecone)', level: 88, category: 'AI/ML', icon: 'Search' },
-  { name: 'OpenAI API integrations', level: 93, category: 'AI/ML', icon: 'Trophy' }
+  { name: 'Gemini Technical SDK', level: 76, category: 'AI/ML', icon: 'Bot' },
+  { name: 'LangChain Orchestration', level: 60, category: 'AI/ML', icon: 'Workflow' },
+  { name: 'Vector Databases (Pinecone)', level: 62, category: 'AI/ML', icon: 'Search' },
+  { name: 'OpenAI API integrations', level: 78, category: 'AI/ML', icon: 'Trophy' }
 ];
 
 export const EXPERIENCE: TimelineEvent[] = [
   {
     id: 'exp1',
     company: 'Stripe',
-    position: 'Lead Full-Stack Architect',
-    duration: '2023 - Present',
+    position: 'Full-Stack Software Engineer',
+    duration: '2024 - Present',
     logoColor: 'bg-emerald-500/20 text-emerald-400 border-emerald-500/50',
     achievements: [
-      'Engineered core checkout UI modules increasing transaction conversion rates by 4.2% globally.',
-      'Designed and piloted real-time financial telemetry dashboard serving 250k request concurrency.',
-      'Led transition to React 18 Suspense with Server-driven UI patterns, lowering initial bundle sizes.'
+      'Developed and optimized responsive checkout UI modules, improving purchase journey completion metrics.',
+      'Contributed to real-time analytics dashboards that visualize localized payment options.',
+      'Refined client performance and bundles, ensuring seamless hydration using React standard hooks.'
     ],
-    skills: ['TypeScript', 'React', 'GraphQL', 'AWS Lambdas', 'Node.js']
+    skills: ['TypeScript', 'React', 'REST APIs', 'Node.js', 'Tailwind']
   },
   {
     id: 'exp2',
     company: 'Linear Corp',
-    position: 'Senior Software Engineer',
-    duration: '2021 - 2023',
+    position: 'Frontend Engineer',
+    duration: '2022 - 2024',
     logoColor: 'bg-indigo-500/20 text-indigo-400 border-indigo-500/50',
     achievements: [
-      'Built reactive custom keyboard shortcut workflow engines and fluid Canvas visualization grids.',
-      'Optimized client-side cache layers with Dexie.js offline persistence, speeding interactive sorting by 300ms.',
-      'Standardized visual token systems using Tailwind CSS, dramatically streamlining layout delivery.'
+      'Built reusable calendar widgets and customized navigation lists supporting fluid animations.',
+      'Integrated IndexedDB client-cache solutions to maintain task states during low connectivity.',
+      'Collaborated on strict implementation of styling rules, improving visual parity globally.'
     ],
-    skills: ['React', 'Next.js', 'PostgreSQL', 'WebSockets', 'Tailwind']
+    skills: ['React', 'Next.js', 'PostgreSQL', 'Dexie.js', 'Tailwind']
   },
   {
     id: 'exp3',
     company: 'Raycast',
-    position: 'Fullstack Product Developer',
-    duration: '2019 - 2021',
+    position: 'Full-Stack Developer',
+    duration: '2021 - 2022',
     logoColor: 'bg-pink-500/20 text-pink-400 border-pink-500/50',
     achievements: [
-      'Pioneered premium developer expansion dashboards and OAuth secure plugin credential handlers.',
-      'Authored reusable high-performance custom hooks yielding 15% improvement in multi-list scrolling frames.'
+      'Assisted in implementing OAuth connector widgets and credential handshakes for extension plugins.',
+      'Authored modular backend services and UI components to improve multi-list layouts.'
     ],
-    skills: ['TypeScript', 'Node.js', 'SQLite', 'Tailwind', 'Docker']
+    skills: ['TypeScript', 'Node.js', 'SQLite', 'Tailwind']
   },
   {
     id: 'exp4',
     company: 'Vercel',
-    position: 'Software Engineer (Dev Tools)',
-    duration: '2018 - 2019',
+    position: 'Frontend Developer Intern',
+    duration: '2020 - 2021',
     logoColor: 'bg-amber-500/20 text-amber-400 border-amber-500/50',
     achievements: [
-      'Contributed directly to modular routing components in Next.js build-time transpilation steps.',
-      'Optimized core serverless deployment lifecycle times from 44s down to 28s on standard environments.'
+      'Maintained documentation websites and modular layout sections built using static site generators.',
+      'Investigated staging build performance markers, resolving configuration errors across routes.'
     ],
-    skills: ['Next.js', 'Webpack', 'Rust basics', 'Node.js']
+    skills: ['Next.js', 'Webpack', 'CSS Modules', 'Node.js']
   }
 ];
 
@@ -137,7 +132,7 @@ export const PROJECTS: Project[] = [
   {
     id: 'proj1',
     title: 'Cognitive Mind Map Engine',
-    description: 'An AI-powered mind-mapping suite that generates, expands, and auto-clusters concepts dynamically using Gemini SDK. Experience real-time multi-branch scaling and canvas layout optimization.',
+    description: 'An interactive web application enabling concept generation, mapping, and automated layout generation using the Gemini API. Built with fluid canvas support and responsive touch navigation.',
     image: 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=800&q=80',
     techStack: ['React', 'TypeScript', 'Gemini SDK', 'Framer Motion', 'Tailwind'],
     githubUrl: 'https://github.com',
@@ -148,9 +143,9 @@ export const PROJECTS: Project[] = [
   {
     id: 'proj2',
     title: 'Nova SaaS FinTech Terminal',
-    description: 'A fully styled Real-time currency and investment analytics workspace. Integrates rich reactive layouts, customizable desktop widgets, keyboard-driven controls, and dark-glow design patterns.',
+    description: 'A responsive dashboard displaying currency shifts and transaction metrics. Integrates custom Recharts charts, robust state management, and an eye-safe dark theme.',
     image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80',
-    techStack: ['Next.js', 'Tailwind CSS', 'Recharts', 'ZustandState', 'WebSockets'],
+    techStack: ['Next.js', 'Tailwind CSS', 'Recharts', 'Zustand', 'REST API'],
     githubUrl: 'https://github.com',
     demoUrl: 'https://github.com',
     featured: true,
@@ -159,9 +154,9 @@ export const PROJECTS: Project[] = [
   {
     id: 'proj3',
     title: 'Aero - Zero-Trust API Proxy',
-    description: 'High-performance API proxy gateway deploying authorization checks, rate-limiting, and deep token caching. Designed for massive transaction resilience.',
+    description: 'A lightweight Node.js API proxy gateway handling path authorization checks, API key rate-limiting, and micro-caching designed for steady local development runs.',
     image: 'https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=800&q=80',
-    techStack: ['Node.js', 'Redis Cache', 'Docker', 'PostgreSQL', 'gRPC'],
+    techStack: ['Node.js', 'Redis', 'Express', 'PostgreSQL'],
     githubUrl: 'https://github.com',
     demoUrl: 'https://github.com',
     featured: false,
@@ -169,10 +164,10 @@ export const PROJECTS: Project[] = [
   },
   {
     id: 'proj4',
-    title: 'Pulse - Automated DevOps Engine',
-    description: 'Centralized diagnostic terminal mapping container health states, cluster workloads, and automated deployment alerts with immediate retrofits.',
+    title: 'Pulse - Container Health Monitor',
+    description: 'A React-based diagnostic terminal showcasing container metrics, basic logs, and cluster environment statuses using secure WebSockets.',
     image: 'https://images.unsplash.com/photo-1597839219216-a773cb2473e4?auto=format&fit=crop&w=800&q=80',
-    techStack: ['React/Vite', 'Docker Node', 'Kubernetes', 'S3 Storage'],
+    techStack: ['React', 'Tailwind CSS', 'Node.js', 'Chart.js'],
     githubUrl: 'https://github.com',
     demoUrl: 'https://github.com',
     featured: false,
@@ -183,7 +178,7 @@ export const PROJECTS: Project[] = [
 export const CERTIFICATIONS: Certification[] = [
   {
     id: 'cert1',
-    title: 'AWS Certified Solutions Architect – Professional',
+    title: 'AWS Certified Developer – Associate',
     issuer: 'Amazon Web Services',
     date: 'Oct 2024',
     credentialUrl: 'https://aws.amazon.com',
@@ -191,7 +186,7 @@ export const CERTIFICATIONS: Certification[] = [
   },
   {
     id: 'cert2',
-    title: 'Professional Cloud DevOps Architect',
+    title: 'Associate Cloud Engineer',
     issuer: 'Google Cloud Platform (GCP)',
     date: 'Feb 2025',
     credentialUrl: 'https://cloud.google.com',
@@ -199,15 +194,7 @@ export const CERTIFICATIONS: Certification[] = [
   },
   {
     id: 'cert3',
-    title: 'Adhering Enterprise Security Engineering',
-    issuer: 'Harvard Professional Dev',
-    date: 'Dec 2023',
-    credentialUrl: 'https://harvard.edu',
-    badgeColor: 'from-red-600 to-rose-400'
-  },
-  {
-    id: 'cert4',
-    title: 'Generative AI Engineering & LangChain Mastery',
+    title: 'Generative AI Foundations with LangChain',
     issuer: 'DeepLearning.AI',
     date: 'Jun 2025',
     credentialUrl: 'https://deeplearning.ai',
@@ -219,18 +206,18 @@ export const TESTIMONIALS: Testimonial[] = [
   {
     id: 'test1',
     name: 'Sarah Jenkins',
-    role: 'VP of Product Engineering',
+    role: 'Product Engineering Lead',
     company: 'Stripe',
     avatar: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?fit=facearea&facepad=2&w=150&h=150&q=80',
-    feedback: 'Sumiya combines a world-class eye for design with rock-solid server discipline. The reactive interfaces engineered for our high-concurrency billing streams reduced code load latency while driving positive conversion indexes.'
+    feedback: 'Sumiya brings a exceptional eye for elegant layouts and robust frontend features. Her work implementing modern payment modules has been highly structured and completely reliable.'
   },
   {
     id: 'test2',
     name: 'Marcus Chen',
-    role: 'Director of Platforms',
+    role: 'Frontend Architect',
     company: 'Linear Corp',
     avatar: 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?fit=facearea&facepad=2&w=150&h=150&q=80',
-    feedback: 'An exceptional developer who advocates clean architecture with surgical precision. Sumiya led our keyboard shortcut transition and local cache migrations, drastically delivering on-screen transitions like zero-friction physics.'
+    feedback: 'A highly committed engineer who designs neat and clean UI codebases. Sumiya contributed great effort to our shortcuts system, styling interactions beautifully and writing well-structured React state logic.'
   },
   {
     id: 'test3',
@@ -238,6 +225,6 @@ export const TESTIMONIALS: Testimonial[] = [
     role: 'Co-Founder & CTO',
     company: 'Holo Systems',
     avatar: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?fit=facearea&facepad=2&w=150&h=150&q=80',
-    feedback: 'Sumiya was critical in establishing our smart prompt execution layer. Working directly with the Gemini API wrappers, Sumiya delivered a cognitive mapping canvas that continues to serve as our central competitive differentiator.'
+    feedback: 'Sumiya worked closely with our core team to implement Gemini SDK integrations cleanly. She is extremely proactive, quick to adapt to new APIs, and writes very easy-to-read code.'
   }
 ];

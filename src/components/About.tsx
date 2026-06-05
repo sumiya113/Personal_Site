@@ -94,7 +94,7 @@ export const About: React.FC = () => {
               
               <div className="flex items-center gap-3 pt-4 border-t border-zinc-800/50">
                 <span className="w-1.5 h-1.5 rounded-full bg-indigo-400" />
-                <span className="text-xs font-mono text-zinc-400">{PERSONAL_INFO.name} // Senior Full-Stack Architect</span>
+                <span className="text-xs font-mono text-zinc-400">{PERSONAL_INFO.name} // {PERSONAL_INFO.title}</span>
               </div>
             </div>
           </div>
