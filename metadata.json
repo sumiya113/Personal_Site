@@ -1,0 +1,6 @@
+{
+  "name": "Personal Portfolio",
+  "description": "A premium, modern, and elegant full-featured portfolio and software engineering profile website built using React, Tailwind CSS, and Framer Motion.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
