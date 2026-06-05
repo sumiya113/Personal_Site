@@ -21,16 +21,17 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      - name: Clear npm cache
+        run: npm cache clean --force
+
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '18'
           cache: 'npm'
 
-      - name: Clear npm cache and node_modules
-        run: |
-          rm -rf node_modules package-lock.json || true
-          npm cache clean --force
+      - name: Clear node_modules
+        run: rm -rf node_modules package-lock.json || true
 
       - name: Install dependencies (rebuild native modules)
         run: npm install
