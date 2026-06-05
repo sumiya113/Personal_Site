@@ -27,11 +27,13 @@ jobs:
           node-version: '18'
           cache: 'npm'
 
-      - name: Clear npm cache
-        run: npm cache clean --force
+      - name: Clear npm cache and node_modules
+        run: |
+          rm -rf node_modules package-lock.json || true
+          npm cache clean --force
 
-      - name: Install dependencies
-        run: npm ci
+      - name: Install dependencies (rebuild native modules)
+        run: npm install
 
       - name: Build
         run: npm run build
