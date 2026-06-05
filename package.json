@@ -9,7 +9,7 @@
     "preview": "vite preview",
     "clean": "rm -rf dist server.js",
     "lint": "tsc --noEmit",
-    "predeploy": "vite build --base=/Personal_Site/",
+    "predeploy": "vite build --mode github-pages",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {

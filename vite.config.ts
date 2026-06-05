@@ -3,9 +3,12 @@ import react from '@vitejs/plugin-react';
 import path from 'path';
 import {defineConfig} from 'vite';
 
-export default defineConfig(() => {
+export default defineConfig(({ command, mode }) => {
+  const isGithubPages = mode === 'github-pages';
+  const base = isGithubPages ? '/Personal_Site/' : (process.env.VITE_BASE_URL || './');
+
   return {
-    base: process.env.VITE_BASE_URL || './',
+    base,
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
