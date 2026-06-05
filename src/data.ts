@@ -10,7 +10,7 @@ export const PERSONAL_INFO = {
   email: 'sumiya.maya@dev.io',
   phone: '+1 (555) 345-6789',
   resumeUrl: '#',
-  github: 'https://github.com',
+  github: 'https://github.com/sumiya113',
   linkedin: 'https://linkedin.com',
   twitter: 'https://twitter.com'
 };
